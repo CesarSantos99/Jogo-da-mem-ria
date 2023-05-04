@@ -1,0 +1,62 @@
+.login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-cabeca {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login-cabeca img {
+    width: 100px;
+}
+
+.login-cabeca h1 {
+    color: #333333;
+    font-size: 23px;
+}
+
+.login-input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+.button-login {
+    cursor: pointer;
+    background-color: #ee665c;
+    border-radius: 8px;
+    padding: 10px;
+    color: #FFF;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.button-login:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+
+}
+
+
+
+
+
+
+
+
