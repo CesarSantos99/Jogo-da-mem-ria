@@ -11,8 +11,17 @@ function validateInput({target}) {
     }
 }
 
+function handleSubmit(event) {
+    event.preventDefault() //bloquei o evento padrão
+    localStorage.setItem('Jogador', input.value) //salva no local storage 
+    window.location = 'game.html' // manda pra outra pagina
+
+}
+
+
 
 input.addEventListener('input', validateInput)
+form.addEventListener('submit', handleSubmit)
 
 
 
