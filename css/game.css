@@ -22,10 +22,10 @@
     height: 100%;
     position: absolute;
     border-radius: 6px;
+    transition: all 400ms ease;
 }
 
 .front {
-    background: url('../imgs/itati.jpg');
     background-size: cover;
     background-position: center;
     transform: rotateY(180deg);
@@ -38,8 +38,13 @@
     backface-visibility: hidden;
 }
 
-.card:hover {
+.reveal-card {
     transform: rotateY(180deg);
+}
+
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.5;
 }
 
 
